@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -30,4 +30,25 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; 
+
+body{
+  @apply bg-black
+} 
+
+.nav-list{
+  @apply text-[#fff]  hover:bg-black p-4
+} 
+
+.nav-icon{
+  @apply p-4  hover:bg-black 
+}  
+
+button{
+  @apply bg-orange-500 p-2 hover:bg-orange-300 transition delay-100
 }
