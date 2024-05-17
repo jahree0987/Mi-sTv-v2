@@ -51,4 +51,8 @@ body{
 
 button{
   @apply bg-orange-500 p-2 hover:bg-orange-300 transition delay-100
+} 
+
+.card{
+  @apply bg-yellow-200 h-[450px] w-[300px] rounded-md 
 }

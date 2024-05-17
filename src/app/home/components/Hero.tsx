@@ -17,9 +17,6 @@ interface HeroProps {
 const Hero = ({ data }: HeroProps) => {
   const [current, setCurrent] = useState(data[0]);
 
-  useEffect(() => {
-    console.log("DATA", data);
-  }, []);
 
   const setCurrentWithDelay = (item: Featured) => {
     setTimeout(() => {
